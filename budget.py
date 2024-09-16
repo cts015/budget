@@ -1,7 +1,3 @@
-import streamlit as st
-import matplotlib.pyplot as plt
-import numpy as np
-
 # Function to calculate savings at retirement
 def calculate_savings(age, retirement_age, monthly_savings, interest_rate):
     years_to_save = retirement_age - age
